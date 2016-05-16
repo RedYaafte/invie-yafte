@@ -448,6 +448,11 @@ de la pagina web y su contenido*/
 
 	.contacto {
 		margin: 0 auto;
+		display: block;
+	}
+
+	.contacto a {
+		display: block;
 	}
 
 	.formulario {
@@ -456,13 +461,25 @@ de la pagina web y su contenido*/
 		width: 300px;
 	}
 
+	.sexo label {
+		display: block;
+	}
+
+	.formulario label {
+		font-size: 20px
+	}
+
 	.intereses label {
 		display: block;
-		font-size: 16px;
+		font-size: 20px;
 	}
 
 	.col1 {
 		margin: 0;
+	}
+
+	input[type="text"] {
+		margin-bottom: 25px;
 	}
 
 	input[type="text"],
@@ -659,4 +676,3 @@ video {
 	background-image: url("../images/background2x.png");	
 	}
 }
-
