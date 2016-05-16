@@ -623,9 +623,7 @@ de modificar dependiendo la pagina web y su contenido*/
 	.col2 {
 		align-items: stretch;
 	}
-
 	/*footer*/
-
 }
 
 /*video responsive*/
@@ -652,15 +650,13 @@ video {
 /*yafte*/
 .caja {
   margin-top: 20px;
- }
- 
+ } 
 /*yafte*/
-}
-
 /*webkit es para safari y chrome - -moz- es para mozilla*/
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
 	.background {
 		/*bacground-image: es para poner una imagen de fondo*/
-	background-image: url("../images/background2x.png");
-	
+	background-image: url("../images/background2x.png");	
 	}
+}
+
